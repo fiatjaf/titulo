@@ -7,6 +7,10 @@
  * modifications by @rvagg Apr-2014
  */
 
+/*
+ * portuguese version by fiatjaf Nov-2014
+ */
+
 //String.prototype.toTitleCase = function(){
 
 
@@ -16,7 +20,7 @@ module.exports = function toTitleCase(str){
 }
 module.exports.toTitleCase = module.exports
 
-var laxWords = require('./articles').concat(require('./prepositions')).concat(require('./conjunctions'))
+var laxWords = require('./minusculas.js')
       .concat(smallWords.source.replace(/(^\^\(|\)\$$)/g, '').split('|'))
       .concat(['is']) // a personal preference
   , laxWordsRe = new RegExp('^(' + laxWords.join('|') + ')$', 'i')

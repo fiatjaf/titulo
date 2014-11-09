@@ -1,19 +1,28 @@
 {
-  "name": "titlecase",
-  "version": "1.0.2",
-  "description": "Intelligently converting strings to title case (an enhanced fork of David Gouch's library)",
+  "name": "titulo",
+  "version": "0.0.1",
+  "description": "Intelligently converting strings to title case (portuguese version)",
   "main": "to-title-case.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/rvagg/titlecase.git"
+    "url": "git://github.com/fiatjaf/titulo.git"
   },
   "keywords": [
     "title-case",
     "title",
     "case",
     "gouch",
-    "to-title-case"
+    "rvagg",
+    "to-title-case",
+    "título",
+    "títulos",
+    "preposição",
+    "preposições",
+    "conjunções",
+    "conjunção",
+    "portuguese",
+    "brazilian"
   ],
-  "author": "Rod Vagg <rod@vagg.org>",
+  "author": "Giovanni T. Parra",
   "license": "MIT"
 }
